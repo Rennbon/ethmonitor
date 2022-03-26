@@ -1,4 +1,4 @@
-# eth monitor [若有帮助，请Star]
+# eth monitor [请勿白嫖，Star支持]
 [![Go Report Card](https://goreportcard.com/badge/github.com/Rennbon/ethmonitor)](https://goreportcard.com/report/github.com/Rennbon/ethmonitor)
 ![Go](https://github.com/Rennbon/ethmonitor/workflows/Go/badge.svg)
 
