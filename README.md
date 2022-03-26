@@ -47,7 +47,7 @@ func main() {
 		AbiStr: `
 [
 	{ "type" : "function", "name" : ""},
-    {"internalType":"string","name":"symbol_","type":"string"}
+        {"internalType":"string","name":"symbol_","type":"string"}
 	{ "type" : "function", "name" : "overloadedNames", "stateMutability" : "view", "inputs": [ { "components": [ { "internalType": "uint256", "name": "_f",	"type": "uint256" }, { "internalType": "uint256", "name": "__f", "type": "uint256"}, { "internalType": "uint256", "name": "f", "type": "uint256"}],"internalType": "struct Overloader.F", "name": "f","type": "tuple"}]}
 ]`,
 		Handler: &Mock{},
