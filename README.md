@@ -25,9 +25,6 @@ var _ ethmonitor.TxHandler = &Mock{}
 type Mock struct {
 }
 
-type Mock struct {
-}
-
 // 持久化块高
 func (m *Mock) SaveHeight(ctx context.Context, height *ethmonitor.BlockHeight) error {
 	// 保存扫过的块高到自己喜欢的中间件
