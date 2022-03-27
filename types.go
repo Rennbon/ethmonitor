@@ -6,12 +6,12 @@ import (
 	"math/big"
 )
 
-type Message = types.Message
-type Receipt = types.Receipt
-type BlockHeight = big.Int
+type Message = types.Message // 消息体
+type Receipt = types.Receipt // 消息回执，验证有效性等
+type BlockHeight = big.Int   // 块高
 type Address = common.Address
 type Amount = big.Int
-type ContractAddress = string
+type ContractAddress = string // 合约地址
 type Singer types.Signer
 type TxInfo struct {
 	Message *Message     // 消息体

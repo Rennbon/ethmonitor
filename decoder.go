@@ -6,10 +6,10 @@ import (
 	"strings"
 )
 
-// Action 智能合约的方法
+// Action 智能合约方法
 type Action struct {
 	Method string                 // 合约方法
-	Inputs map[string]interface{} //合约入参及对应的value
+	Inputs map[string]interface{} // 合约入参及对应的value
 }
 
 type abiDecoder struct {

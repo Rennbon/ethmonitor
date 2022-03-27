@@ -90,10 +90,10 @@ type TxHandler interface {
 	HeightScanner
 	// Do 处理命中的tx
 	Do(ctx context.Context, info *TxInfo)
-	// ContainContact 是否包含指定合约token
+	// ContainContact 是否包含指定合约地址
 	// NOTE: 如果不满足也放行会在decode中抛出error "illegal tx"
 	// 如果是多智能合约监听，可以使用map维护多个
-	// 配套的，需要把这些合约的abi合并在初始化monitor时赋值给AbiStr，注意去重
+	// 配套的，需要把这些合约的abi合并后在monitor初始化时赋值给AbiStr，注意去重
 	ContainContact(ctx context.Context, address ContractAddress) bool
 }
 

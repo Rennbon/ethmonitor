@@ -19,7 +19,7 @@ func (m *Mock) SaveHeight(ctx context.Context, height *ethmonitor.BlockHeight) e
 	return nil
 }
 
-// 启动monitor时加载初始化监听块高
+// 启动monitor时初始化监听块高
 func (m *Mock) LoadLastHeight(ctx context.Context) (*ethmonitor.BlockHeight, error) {
 	return big.NewInt(1), nil
 }
