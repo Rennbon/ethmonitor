@@ -36,7 +36,7 @@ func (m *Mock) SaveHeight(ctx context.Context, height *ethmonitor.BlockHeight) e
 
 // 启动monitor时始化监听块高
 func (m *Mock) LoadLastHeight(ctx context.Context) (*ethmonitor.BlockHeight, error) {
-	// 从自己喜欢的中间件或许块高
+	// 从自己喜欢的中间件获取块高
 	return big.NewInt(1), nil
 }
 
