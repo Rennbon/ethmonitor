@@ -54,9 +54,7 @@ func main() {
 		RpcUrl: "http://localhost:8545",
 		AbiStr: `
 [
-	{ "type" : "function", "name" : ""},
-        {"internalType":"string","name":"symbol_","type":"string"}
-	{ "type" : "function", "name" : "overloadedNames", "stateMutability" : "view", "inputs": [ { "components": [ { "internalType": "uint256", "name": "_f",	"type": "uint256" }, { "internalType": "uint256", "name": "__f", "type": "uint256"}, { "internalType": "uint256", "name": "f", "type": "uint256"}],"internalType": "struct Overloader.F", "name": "f","type": "tuple"}]}
+    { "type" : "function", "name" : "send", "inputs" : [ { "name" : "amount", "type" : "uint256" } ] }
 ]`,
 		Handler: &Mock{},
 	}
