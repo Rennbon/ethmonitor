@@ -1,6 +1,8 @@
 # eth monitor [一闪一闪亮晶晶，star一下好心情]
 [![Go Report Card](https://goreportcard.com/badge/github.com/Rennbon/ethmonitor)](https://goreportcard.com/report/github.com/Rennbon/ethmonitor)
 ![Go](https://github.com/Rennbon/ethmonitor/workflows/Go/badge.svg)
+![GitHub](https://img.shields.io/github/license/Rennbon/ethmonitor)
+https://img.shields.io/github/go-mod/go-version/Rennbon/ethmonitor
 
 - ETH 多智能合约监控框架，针对智能合约监听做了统一封装，提供handle支持业务实现个性化操作。
 
