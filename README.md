@@ -5,7 +5,9 @@
 ![version](https://img.shields.io/github/go-mod/go-version/Rennbon/ethmonitor)
 ![release](https://img.shields.io/github/v/release/Rennbon/ethmonitor)
 - ETH 多智能合约监控框架，针对智能合约监听做了统一封装，提供handle支持业务实现个性化操作。
-# (eth 私链部署相关)[https://github.com/Rennbon/shellscript/blob/main/blockchain/eth.md]
+
+# [eth 私链部署相关](https://github.com/Rennbon/shellscript/blob/main/blockchain/eth.md)
+- 注意私链暴露到后容易被攻击，可以做一些IP限制等措施保证开发环境稳定
 
 # 特性
 - 支持自定义业务handle
