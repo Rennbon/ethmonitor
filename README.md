@@ -96,9 +96,8 @@ if ok {
 ```
 
 ## 维护及联系
-
-欢迎issue，pr，交流
-微信号：`WB343688972` 或者 扫码，请标注`ETH`
-欢迎 star 加我，会拉群
+- 欢迎issue，pr，交流
+- 微信号：`WB343688972` 或者 扫码，请标注`ETH`
+- 欢迎 star 加我，会拉群
    
    <img src="https://github.com/Rennbon/pyhikvision/blob/master/doc/wechat.png" width="200px" >
